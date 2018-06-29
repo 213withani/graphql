@@ -29,3 +29,25 @@ functions for each field on each type
 [Send] GraphQL queries to validate and execute
 
 A received query is first checked to ensure it only refers to the types and fields defined, then runs the provided functions to produce a result.
+
+# Queries and Mutations
+GraphQL is about asking for specific fields on objects
+
+fields can also refer to Objects
+
+fetch lots of related data in one request, instead of making several roundtrips as one would need in a classic REST architecture.
+
+GraphQL queries look the same for both single items or lists of items, however we know which one to expect based on what is indicated in the schema.
+
+## Arguments
+In a system like REST, you can only pass a single set of arguments - the query parameters and URL segments in your request.
+## Aliases
+you can't directly query for the same field with different arguments. That's why you need aliases - they let you rename the result of a field to anything you want.
+
+## Fragments
+reusable units called fragments. Fragments let you construct sets of fields
+
+frequently used to split complicated application data requirements into smaller chunks
+
+## Operation name
+in JavaScript we can easily work only with anonymous functions, but when we give a function a name, it's easier to track it down, debug our code, and log when it's called. In the same way, GraphQL query and mutation names, along with fragment names, can be a useful debugging tool on the server side to identify different GraphQL requests.
