@@ -51,3 +51,19 @@ frequently used to split complicated application data requirements into smaller 
 
 ## Operation name
 in JavaScript we can easily work only with anonymous functions, but when we give a function a name, it's easier to track it down, debug our code, and log when it's called. In the same way, GraphQL query and mutation names, along with fragment names, can be a useful debugging tool on the server side to identify different GraphQL requests.
+
+## Variables
+GraphQL has a first-class way to factor dynamic values out of the query, and pass them as a separate dictionary. 
+
+## Variables definition
+So if you want to pass a complex object into a field, you need to know what input type that matches on the server
+
+## Mutations
+In REST, any request might end up causing some side-effects on the server, but by convention it's suggested that one doesn't use GET requests to modify data. 
+
+GraphQL is similar - technically any query could be implemented to cause a data write. However, it's useful to establish a convention that any operations that cause writes should be sent explicitly via a mutation.
+
+### Multiple fields in mutations 
+While query fields are executed in parallel, mutation fields run in series, one after the other.
+
+ensuring that we don't end up with a race condition
