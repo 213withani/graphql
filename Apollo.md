@@ -1,3 +1,9 @@
+
+https://www.robinwieruch.de/react-apollo-client-example/
+
+https://blog.apollographql.com/tutorial-graphql-input-types-and-client-caching-f11fa0421cfd
+Reading the Channel Name from Cache
+
 # cache data updates
 https://blog.vulcanjs.org/understanding-post-mutation-data-updates-in-apollo-43e90c37023b
 
