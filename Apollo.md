@@ -1,3 +1,18 @@
+# Updating React Apollo Cache
+## mutate and update:
+https://www.youtube.com/watch?v=uDfFkuvhnxs
+
+# How to get updated data from apollo cache
+https://stackoverflow.com/questions/50342116/how-to-get-updated-data-from-apollo-cache
+
+# Realtime GraphQL UI Updates in React with Apollo. (long with samples)
+https://scotch.io/tutorials/realtime-graphql-ui-updates-in-react-with-apollo
+
+# Why do we cache?
+https://hackernoon.com/why-do-we-cache-b24920e1e903
+
+# How to force-refresh a React child component: the easy way
+https://medium.freecodecamp.org/force-refreshing-a-react-child-component-the-easy-way-6cdbb9e6d99c
 
 https://www.robinwieruch.de/react-apollo-client-example/
 
