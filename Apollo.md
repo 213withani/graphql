@@ -1,3 +1,6 @@
+# This follows our app code
+https://github.com/apollographql/apollo-client/tree/master/packages/apollo-cache-inmemory#normalization
+
 # Updating React Apollo Cache
 ## mutate and update:
 https://www.youtube.com/watch?v=uDfFkuvhnxs
