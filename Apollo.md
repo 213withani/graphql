@@ -1,3 +1,6 @@
+# A COMPLETE INTRODUCTION TO APOLLO, THE GRAPHQL TOOLKIT
+https://flaviocopes.com/apollo/
+
 # This follows our app code
 https://github.com/apollographql/apollo-client/tree/master/packages/apollo-cache-inmemory#normalization
 
