@@ -54,3 +54,7 @@ https://s3.amazonaws.com/apollo-docs-1.x/cache-updates.html
 # Pagination
 
 https://s3.amazonaws.com/apollo-docs-1.x/pagination.html
+
+# disable cache stack overflow
+
+https://stackoverflow.com/questions/47879016/how-to-disable-cache-in-apollo-link-or-apollo-client
