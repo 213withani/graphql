@@ -1,3 +1,6 @@
+# Github PR issues apollo-client
+https://github.com/apollographql/apollo-client/issues/3452#issuecomment-389601457
+
 # A COMPLETE INTRODUCTION TO APOLLO, THE GRAPHQL TOOLKIT
 https://flaviocopes.com/apollo/
 
