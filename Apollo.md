@@ -51,3 +51,6 @@ https://s3.amazonaws.com/apollo-docs-1.x/cache-updates.html
 'Person:1234'
 ```
 
+# Pagination
+
+https://s3.amazonaws.com/apollo-docs-1.x/pagination.html
