@@ -24,7 +24,7 @@ type Query {
 ```
 
 * Resolvers: process a request
-- it resolves the value of a field in this case greeting
+  - it resolves the value of a field in this case greeting
 * 
 * 
 
