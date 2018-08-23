@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=56uJzGsaLoI
 * graphql : core
 * graphql-tools : utilities ex makeExecutableSchema
 * apollo-server-express: wrapper with utils; 
-* * ex. grahpqlExpress for app route and exposing http
+  - ex. grahpqlExpress for app route and exposing http
 
 Describe data to be exposed by our API
 * typeDefs: 
@@ -29,7 +29,6 @@ type Query {
   - it resolves the value of a field in this case greeting
   - Logic of how server will respond to user/client
   - How server responds, how each req is handled
-* 
 
 Process Flow: typeDefs => typeDefs => resolvers => API 
 
