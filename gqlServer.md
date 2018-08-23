@@ -30,7 +30,13 @@ type Query {
   - Logic of how server will respond to user/client
   - How server responds, how each req is handled
 
-Process Flow: typeDefs => typeDefs => resolvers => API 
+```js
+ Query: {
+  greeting: () => 'Hello'
+ }
+```
+
+Process Flow: typeDefs => resolvers => API 
 
 * Any call to /grahpql will be taken care by graphqlExpress
   - graphqlExpress tells express to server gql schema 
