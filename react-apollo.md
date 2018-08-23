@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=5evJqX5i1zE
 
-Goal: User <Query query={gql}> . . . </Query>
+Goal: Use ```jsx <Query query={gql}> . . . </Query>```
 
 * React Apollo 2.1
 * Query connects to graphql BE
