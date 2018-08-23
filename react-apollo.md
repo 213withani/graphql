@@ -14,8 +14,9 @@ Goal: User <Query query={gql}> . . . </Query>
 terminal type 'code .' to open VS code
 
 http://launchpad.graphql.com/
-
+```js
 ApolloProvider from 'react-apollo'
 Query from 'react-apollo'
 gql 'graphql-tag'
 
+```
