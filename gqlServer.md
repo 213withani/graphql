@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=56uJzGsaLoI
 * graphql : core
 * graphql-tools : utilities ex makeExecutableSchema
 * apollo-server-express: wrapper with utils; 
-** ex. grahpqlExpress for app route and exposing http
+* * ex. grahpqlExpress for app route and exposing http
 
 Describe data to be exposed by our API
 * typeDefs: top level type
@@ -24,7 +24,7 @@ type Query {
 ```
 
 * Resolvers: process a request
-** it resolves the value of a field in this case greeting
+* * it resolves the value of a field in this case greeting
 * 
 * 
 
