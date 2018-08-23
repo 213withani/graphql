@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=56uJzGsaLoI
 
 Describe data to be exposed by our API
 * typeDefs: top level type
-* * which queries can be sent by the client
+ * which queries can be sent by the client
 
 ex. All a client can do is ask fo the greeting that returns a string value
 ```js
@@ -24,7 +24,7 @@ type Query {
 ```
 
 * Resolvers: process a request
-* * it resolves the value of a field in this case greeting
+ * it resolves the value of a field in this case greeting
 * 
 * 
 
