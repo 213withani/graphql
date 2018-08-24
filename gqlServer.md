@@ -1,6 +1,8 @@
 # Minimal GraphQL Server
 ## by Mirko Nasato
 
+#fetch #query # errors #noRedux
+
 ## Goal:
 
 * 00:00 Minimal GraphQL Server
