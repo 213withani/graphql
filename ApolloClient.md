@@ -11,6 +11,18 @@ query(options)
 fetchPolicy "cache-first" | "cache-and-network" | "network-only" | "cache-only" | "no-cache" | "standby"
 Specifies the FetchPolicy to be used for this query
 ```
+
+# fetchPolicy
+https://www.apollographql.com/docs/react/api/react-apollo.html#graphql-config-options-fetchPolicy
+
+```
+cache-first:       This is the default value where we always try reading data from your cache first.
+cache-and-network: Regardless of whether or not the full data is in your cache this fetchPolicy will always execute query with the network interface. This fetch policy optimizes for users getting a quick response while also trying to keep cached data consistent with your server data at the cost of extra network requests.
+network-only:       This fetch policy will never return you *initial* data from the cache. This fetch policy optimizes for data consistency with the server
+cache-only:         This fetch policy will never execute a query using your network interface. 
+no-cache:           This fetch policy will never return your initial data from the cache. Instead it will always make a request using your network interface to the server. 
+```
+
 # other gql books
 https://github.com/GraphQLCollege/fullstack-graphql/blob/master/manuscript/chapter-0.md
 
