@@ -1,3 +1,16 @@
+# API bottom of doc page
+https://www.apollographql.com/docs/react/api/apollo-client.html#ApolloClient.watchQuery
+
+```
+watchQuery(options)
+
+fetchPolicy "cache-first" | "cache-and-network" | "network-only" | "cache-only" | "no-cache" | "standby"
+Specifies the FetchPolicy to be used for this query
+
+query(options)
+fetchPolicy "cache-first" | "cache-and-network" | "network-only" | "cache-only" | "no-cache" | "standby"
+Specifies the FetchPolicy to be used for this query
+```
 # other gql books
 https://github.com/GraphQLCollege/fullstack-graphql/blob/master/manuscript/chapter-0.md
 
