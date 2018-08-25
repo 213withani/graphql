@@ -1,3 +1,10 @@
+# Intro
+https://www.apollographql.com/docs/react/
+quickly build a UI that fetches data with GraphQL
+
+https://codesandbox.io/s/nn9y2wzyw4
+// Fetch GraphQL data with plain JS
+// Fetch GraphQL data with a Query component
 
 # Docs that started it all
 https://www.apollographql.com/docs/react/basics/setup
@@ -9,7 +16,13 @@ import gql from 'graphql-tag';
 // snippet: you can query using apollo client but recommended way is using hoc or new Query component
 const client = new ApolloClient(
 client.query({ query: gql`{ hello }` }).then(console.log);
+
+// Seems like props below are appended to the component props:
+// use the graphql container to pass the query results returned by MY_QUERY
+// to a component as a prop (and update them as the results change)
+const MyComponentWithData = graphql(MY_QUERY)(props => <div>...</div>);
 ```
+graphql + (operation) + (component) => get your data + describe which data + present your data
 
  
 # react-apollo-migration to ```<Query/>```
