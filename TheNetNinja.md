@@ -10,7 +10,7 @@ simplistic app UI desgin: less work, less css
 iamshaunjp/grahpql-playlist
 
 https://youtu.be/bUD6ERbcXrQ
-##  A Birdseye View of GraphQL
+##  GraphQL Tutorial #2: A Birdseye View of GraphQL
 
 * REST API endpoints use urls to control different types of data
 * FE makes AJAX/fetch requests to endpoints to retrieve information
@@ -38,3 +38,13 @@ dev tools Network tab shows Headers info. The Request Paylod shows an object wit
 * variables: null
 
 query property is just what looks like a string. Nothing special. The special thing happens when gql server receives that string and it can parse it (pull it apart) so that it understands that string and knows what data to return. How to walk/traverse the graph, how to grab info we requested and how to return it back to us, the client, the browser.
+
+# GraphQL Tutorial #5 Express App Setup
+```js
+const express = require('express')
+const app = express();
+
+app.listn(4000, () => {
+ console.log('listening');
+ });
+```
