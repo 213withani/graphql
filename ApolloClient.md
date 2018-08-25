@@ -1,3 +1,6 @@
+# other gql books
+https://github.com/GraphQLCollege/fullstack-graphql/blob/master/manuscript/chapter-0.md
+
 # Intro
 https://www.apollographql.com/docs/react/
 quickly build a UI that fetches data with GraphQL
@@ -5,6 +8,18 @@ quickly build a UI that fetches data with GraphQL
 https://codesandbox.io/s/nn9y2wzyw4
 // Fetch GraphQL data with plain JS
 // Fetch GraphQL data with a Query component
+
+# get-started with a small app
+https://www.apollographql.com/docs/react/essentials/get-started.html
+
+```
+// react-apollo: View layer integration for React
+import { ApolloProvider } from "react-apollo";
+// Uses the render prop pattern to share GraphQL data with your UI.
+import { Query } from "react-apollo";
+
+
+```
 
 # Docs that started it all
 https://www.apollographql.com/docs/react/basics/setup
