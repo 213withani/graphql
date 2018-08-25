@@ -1,5 +1,8 @@
 
-https://www.apollographql.com/docs/react/advanced/caching.html#fetchMore
+# https://www.apollographql.com/docs/react/react-apollo-migration.html
+graphql(query,{}) to <Query/> hoc to component
+
+# https://www.apollographql.com/docs/react/advanced/caching.html#fetchMore
 ```
 const FeedWithData = ({ match }) => (
   <Query
