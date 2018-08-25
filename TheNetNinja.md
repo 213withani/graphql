@@ -44,7 +44,27 @@ query property is just what looks like a string. Nothing special. The special th
 const express = require('express')
 const app = express();
 
-app.listn(4000, () => {
+app.listen(4000, () => {
  console.log('listening');
  });
 ```
+
+# GraphQL Tutorial #6 - Setting up GraphQL
+npm install graphql express-graphql 
+* graphql: JS implementation
+* allows express to understand gql
+
+Use as middleware in a single route, like an endpoint to interact with gql data
+* app.use('/graphql', when someone goes to this route, express knows you want to interact with gql
+* since express in its own doesn't understand gql, it will hand it off to graphqlHTTP
+* gqlHTTP knows how to handle gql requests
+
+gql error obj format:
+{"errors": ["message":"you got err"}]}
+
+Ultimate goal for creating gql server is to allow to queries to drop into our grahp at diff points to retrieve data.
+
+Schema to describe how our graph will look. So gql-express knows exactly how to deal with our data and queries.
+
+GraphQL Tutorial #7 - GraphQL Schema
+
