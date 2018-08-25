@@ -21,6 +21,10 @@ import { Query } from "react-apollo";
 
 ```
 
+# Pull Request with examples
+https://github.com/apollographql/GitHunt-React 
+https://github.com/apollographql/GitHunt-React/pull/275
+
 # Docs that started it all
 https://www.apollographql.com/docs/react/basics/setup
 
