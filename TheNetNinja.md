@@ -66,5 +66,18 @@ Ultimate goal for creating gql server is to allow to queries to drop into our gr
 
 Schema to describe how our graph will look. So gql-express knows exactly how to deal with our data and queries.
 
-GraphQL Tutorial #7 - GraphQL Schema
+# GraphQL Tutorial #7 - GraphQL Schema
 
+https://graphql.org/graphql-js/constructing-types/
+
+```js
+// Define the Query type
+var queryType = new graphql.GraphQLObjectType({
+  name: 'Query',
+  fields: {
+    user: {
+    ...
+    }
+  }
+});
+```
