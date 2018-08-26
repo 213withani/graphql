@@ -1,3 +1,13 @@
+# All about gql HOC
+https://github.com/apollographql/apollo-client/blob/master/docs/source/basics/queries.md
+```
+sometimes you may want to do some conditional logic to skip a query based on the passed in props. To do this you can use the skip config.
+
+const ProfileWithData = graphql(CurrentUserForLayout, {
+  skip: true,
+})(Profile);
+```
+
 # API bottom of doc page
 
 https://www.apollographql.com/docs/react/api/apollo-client.html#ApolloCache
@@ -33,7 +43,7 @@ Specifies the FetchPolicy to be used for this query
 https://www.apollographql.com/docs/react/api/react-apollo.html#graphql-config-options-fetchPolicy
 
 ```
-cache-first:       This is the default value where we always try reading data from your cache first.
+cache-first:       This is the *default* value where we always try reading data from your cache first.
 cache-and-network: Regardless of whether or not the full data is in your cache this fetchPolicy will always execute query with the network interface. This fetch policy optimizes for users getting a quick response while also trying to keep cached data consistent with your server data at the cost of extra network requests.
 network-only:       This fetch policy will never return you *initial* data from the cache. This fetch policy optimizes for data consistency with the server
 cache-only:         This fetch policy will never execute a query using your network interface. 
