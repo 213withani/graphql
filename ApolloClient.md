@@ -1,3 +1,12 @@
+# cache
+
+https://www.apollographql.com/docs/react/advanced/caching.html
+
+```
+const cache = new InMemoryCache({
+  dataIdFromObject: object => object.key || null
+});
+```
 # All about gql HOC
 https://github.com/apollographql/apollo-client/blob/master/docs/source/basics/queries.md
 ```
