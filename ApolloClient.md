@@ -1,4 +1,21 @@
 # API bottom of doc page
+
+https://www.apollographql.com/docs/react/api/apollo-client.html#ApolloCache
+```
+const defaultOptions = {
+  watchQuery: {
+    fetchPolicy: 'cache-and-network',
+    errorPolicy: 'ignore',
+  },
+  query: {
+    fetchPolicy: 'network-only',
+    errorPolicy: 'all',
+  },
+};
+```
+
+Note: The React Apollo <Query /> component uses Apollo Client’s watchQuery functionality, so if you would like to set defaultOptions when using <Query />, be sure to set them under the defaultOptions.watchQuery property.
+
 https://www.apollographql.com/docs/react/api/apollo-client.html#ApolloClient.watchQuery
 
 ```
