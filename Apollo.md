@@ -1,3 +1,6 @@
+#  MLS apollo and less redux
+https://blog.apollographql.com/reducing-our-redux-code-with-react-apollo-5091b9de9c2a
+
 # Github PR issues apollo-client
 https://github.com/apollographql/apollo-client/issues/3452#issuecomment-389601457
 
