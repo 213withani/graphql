@@ -91,3 +91,15 @@ const FeedWithData = ({ match }) => (
   </Query>
 );
 ```
+
+
+# Updating React Apollo Cache
+## mutate and update:
+https://www.youtube.com/watch?v=uDfFkuvhnxs
+
+# How to get updated data from apollo cache
+https://stackoverflow.com/questions/50342116/how-to-get-updated-data-from-apollo-cache
+
+
+# Why do we cache?
+https://hackernoon.com/why-do-we-cache-b24920e1e903
