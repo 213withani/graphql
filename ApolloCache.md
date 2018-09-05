@@ -103,3 +103,31 @@ https://stackoverflow.com/questions/50342116/how-to-get-updated-data-from-apollo
 
 # Why do we cache?
 https://hackernoon.com/why-do-we-cache-b24920e1e903
+
+
+# cache data updates
+https://blog.vulcanjs.org/understanding-post-mutation-data-updates-in-apollo-43e90c37023b
+
+# Apollo cache and server updates
+https://s3.amazonaws.com/apollo-docs-1.x/receiving-updates.html
+How do we make sure to update the cache if information changes on the server? How will our UI update to reflect this new information?
+
+These are: manual refetches, polling queries and GraphQL subscriptions.
+
+
+https://s3.amazonaws.com/apollo-docs-1.x/cache-updates.html
+
+```js
+// This result
+{
+  __typename: 'Person',
+  id: '1234',
+  name: 'Jonas',
+}
+// Will get the following ID
+'Person:1234'
+```
+
+# disable cache stack overflow
+
+https://stackoverflow.com/questions/47879016/how-to-disable-cache-in-apollo-link-or-apollo-client
