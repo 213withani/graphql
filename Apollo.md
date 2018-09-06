@@ -1,3 +1,7 @@
+# httpLink, middlewareLink, link 
+## client = new ApolloClient()
+https://youtu.be/gfRzLg0cpro?t=9m45s
+
 # withApollo() API
 https://www.apollographql.com/docs/react/api/react-apollo.html#withApollo
 
